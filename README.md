@@ -15,7 +15,7 @@
     Utliser [ngModel].
     
 ## Exercice 5
-* Créer un bouton qui permet d'afficher de retirer du DOM une balise **<p>** contenant du texte.
+* Créer un bouton qui permet d'afficher ou de retirer du DOM une balise **<p>** contenant du texte.
     Utliser **ngIf**
   
 ## Exercice 6
