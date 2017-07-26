@@ -1,0 +1,40 @@
+#cube, #cube3{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#cube2{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border : 1px solid black;
+    padding-top: 70px;
+    border-radius: 10px;
+
+}
+
+.style1{
+    background-color: red;
+    border : 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border : 1px solid black;
+    border-radius: 10px;
+}
+.style2{
+    background-color: green;
+    border : 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border : 1px solid black;
+    border-radius: 10px;
+
+}
+hr{
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}

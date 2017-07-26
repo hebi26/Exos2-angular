@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<section>
+    <h3>-EXO 1-</h3>
+    <input #entry [type]="type">
+    <button (click)="changeclick()">Click</button><br><hr><br>
+
+
+    <h3>-EXO 2-</h3>
+    <p>{{number}}</p>
+    <button (click)="less()">Click</button>
+    <button (click)="more()">Click</button><br><hr><br>
+
+    <h3>-EXO 3-</h3>
+    <div id="cube" [ngStyle]="{'background-color': color}" (click)="changecolor('red')" (mouseenter)="changecolor('blue')" (mouseleave)="changecolor('yellow')"></div><br><hr><br>
+
+    <h3>-EXO 4-</h3>
+    <input [(ngModel)]="name">
+
+    <p>{{ name }}</p><br><hr><br>
+
+    <h3>-EXO 5-</h3>
+    <button (click)="on = !on">toggle !</button>
+    <p id="cube2" *ngIf="on" >Texte Ninja !</p><br><hr><br>
+
+    <h3>-EXO 6-</h3>
+    <input [(ngModel)]="color2"><br><br>
+    <div id="cube3" [ngStyle]="{'background-color': color2}"></div><br><hr><br>
+
+    <h3>-EXO 7-</h3>
+    <button (click)="change()">{{textcolor}}</button><br><br>
+    <div class="style1" [ngClass]="{'style2' : clicked}"></div>
+
+</section>
